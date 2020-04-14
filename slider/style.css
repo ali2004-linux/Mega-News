@@ -1,0 +1,153 @@
+@font-face{
+		font-family: ali;
+		src:url(../font/IRANSansWeb.woff) format('woff');
+}
+@media screen and (min-width: 920px) and (max-width: 1200px) {
+		#slider {
+		width: 50%;
+		position: absolute;
+		height: 300px;
+		margin-top: 20px;
+		margin-left: 70px;
+		background-size: cover;
+		overflow: hidden;
+		color: black;
+		font-family: ali;
+		box-shadow: 0 0 7px #333;
+		border-radius: 10px;
+	}
+
+	#slider img {
+		width: 100%;
+		background-size: cover;
+	}
+
+	.slide {
+		display: none;
+		background-size: cover;
+		animation: fade 1s;
+	}
+
+	.slide.active {
+		display: block;
+		background-size: cover;
+	}
+	.text {
+		color: blue;
+		position: absolute;
+		bottom: 20px;
+		text-align: center;
+		width: 100%;
+		cursor: pointer;
+		font-family: ali;
+		font-weight: bold;
+		font-size: 22px;
+	}
+
+	.prev,
+	.next {
+		color: black;
+		text-decoration: none;
+		font-size: 40px;
+		position: absolute;
+		top: 50%;
+		transform: translate(0, -50%);
+	}
+
+	.prev {
+		left: 5px;
+	}
+
+	.next {
+		right: 5px;
+	}
+
+	#dots {
+		text-align: center;
+	}
+
+	.dot {
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		background: #fff;
+	}
+
+	.dot.active {
+		background-color: rgb(152, 0, 184);
+	}
+}
+#slider {
+		width: 50%;
+		position: absolute;
+		height: 300px;
+		margin-top: 20px;
+		margin-left: 70px;
+		background-size: cover;
+		overflow: hidden;
+		color: black;
+		box-shadow: 0 0 7px #333;
+		border-radius: 10px;
+	}
+
+	#slider img {
+		width: 100%;
+		background-size: cover;
+	}
+
+	.slide {
+		display: none;
+		background-size: cover;
+		animation: fade 1s;
+	}
+
+	.slide.active {
+		display: block;
+		background-size: cover;
+	}
+
+	.text {
+		color: blue;
+		position: absolute;
+		bottom: 20px;
+		text-align: center;
+		width: 100%;
+		font-style: italic;
+		font-weight: bold;
+		font-size: 22px;
+	}
+
+	.prev,
+	.next {
+		color: black;
+		text-decoration: none;
+		font-size: 40px;
+		position: absolute;
+		top: 50%;
+		transform: translate(0, -50%);
+	}
+
+	.prev {
+		left: 5px;
+	}
+
+	.next {
+		right: 5px;
+	}
+
+	#dots {
+		text-align: center;
+	}
+
+	.dot {
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		background: #fff;
+	}
+
+	.dot.active {
+		background-color: rgb(152, 0, 184);
+	}

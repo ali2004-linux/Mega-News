@@ -1,0 +1,98 @@
+@font-face{
+	font-family: ali;
+	src:url(../font/IRANSansWeb.woff) format('woff');
+}
+body{
+	background-color: white;
+	text-align: center;
+}
+#o{
+	width: 50%;
+	height: 530px;
+	margin-top: 45px;
+	margin-left: 25%;
+	border-radius: 10px;
+	background-color: #ddde;
+	text-align: center;
+}
+hr{
+	margin-top: 20px;
+	background: blue;
+	color: blue;
+}
+#text{
+	font-family: ali;
+	font-size: 20px;
+	margin-top: 50px;
+	font-weight: bold;
+	font-style: italic;
+}
+#logo{
+	margin-top: 10px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+img{
+	border-radius: 50%;
+	width: 170px;
+	height: 120px;
+	margin-top: 10px;
+}
+#tb{
+	font-style: initial;
+}
+
+#w{
+	text-decoration: none;
+	color: blue;
+	font-family: ali;
+	text-align: center;
+	margin-right: 18px;
+	float: right;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 20px;
+}
+#ca{
+	width: 60%;
+	margin-left: 15%;
+}
+a:link{
+	text-decoration: none;
+}
+@keyframes ali{
+	from{
+		margin-left: 2px;
+	}
+	to{
+		margin-left: 450px;
+		box-shadow: 3px 0px 3px 0px red;
+	}
+}
+#ba{
+	margin-top: 130px;
+	text-align: center;
+	width: 100px;
+	box-shadow: 2.8px 0px 2.8px 0px red;
+	height: 30px;
+	border-radius: 5px;
+	background-color: orange;
+	color: darkblue;
+	transition: all 1s;
+	line-height: 27px;
+	animation-name: ali;
+	left: 1px;
+	position: absolute;
+	font-family: ali;
+	margin-left: 450px;
+	animation-duration: 2.5s;
+	cursor: pointer;
+}
+#ba:hover{
+	box-shadow: 0px 0px 0px 0px;
+	border-radius: 10px;
+	width: 120px;
+	height: 40px;
+	line-height: 35px;
+}

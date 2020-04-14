@@ -1,0 +1,291 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	text-align: center;
+	border: 0;
+	color: black;
+	font-family: ali;
+	user-select: none;
+}
+@font-face{
+	font-family: ali;
+	src:url(../font/IRANSansWeb.woff) format('woff');
+}
+@media screen and (min-width: 970px) and (max-width: 1200px) {
+	#header {
+		width: 100%;
+		height: 320px;
+		top: 1px;
+		position: absolute;
+		background-image: url(../pic/d.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	#menu- {
+		transform: scaleX(0);
+		transform-origin: left left;
+		transition: 0.7s ease-in-out;
+		width: 100%;
+		height: 50px;
+		top: 1px;
+		padding: 4px;
+		background-color: rgba(0, 0, 16, 0.5)
+	}
+
+	#menu {
+		list-style-type: none;
+	}
+	#men{
+		margin-right: 80px;
+	}
+	#li {
+		width: 80px;
+		height: 30px;
+		line-height: 25px;
+		float: right;
+		margin-right: 10px;
+		margin-top: 7px;
+		background-color: transparent;
+		border: 2px solid darkgrey;
+		text-align: center;
+		border-radius: 4px;
+		transition: all 0.8s;
+		font-family: ali;
+		font-weight: bold;
+		font-size: 14px;
+		font-style: italic;
+		color: #3AFB55
+	}
+
+	#li:hover {
+		cursor: pointer;
+		color: white;
+		background-color: #1b9bff;
+		border-top-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+		border: 0.7px solid white
+	}
+	#as{
+		background-size: cover;
+		width: 75%;
+		border-radius: 5px;
+		height: 190px;
+		border:1px solid black;
+		box-shadow: 2px 0px 3px 0px black;
+	}
+	#ak{
+		background-size: cover;
+		position: absolute;
+		top: 15px;
+		border-radius: 5px;
+		width: 75%;
+		margin-left: 12.5%;
+	}
+	#h-t{
+		font-weight: bold;
+		font-size: 14px;
+	}
+	#tx{
+		text-align: center;
+		text-overflow: inherit;
+		font-size: 11px;
+		font-weight: bold;
+		margin-top: 220px;
+		text-decoration-style: inherit;
+	}
+	#te{
+		position: absolute;
+		text-align: center;
+		font-family: ali;
+		border-radius: 8px;
+		font-size: 12px;
+		font-weight: bold;
+		font-stretch: semi-condensed;
+		width: 100px;
+		height: 20px;
+		line-height: 16px;
+		background: #dde;
+		top: 20px;
+	}
+	#two{
+		width: 88%;
+		height: 480px;
+		background: #fff;
+		border-radius:10px;
+		border-top: 1px solid gray;
+		position: absolute;
+		margin-top:470px;
+		margin-left: 6%;
+		border-bottom: 1px solid gray;  
+		box-shadow: 2px 1px 3px 1px #444;
+	}
+
+	#t-4 {
+		width: 90px;
+		height: 25px;
+		line-height: 20px;
+		position: absolute;
+		margin-left: 79px;
+		margin-top: 22px;
+		background: linear-gradient(#0ECBED, #F63CDA);
+		border-radius: 4px;
+		box-shadow: 7px -5px 7px -5px #E0EA38;
+		font-style: italic;
+	}
+
+	#text- {
+		font-style: italic;
+		font-weight: bold;
+		text-align: center;
+		font-size: 40px;
+		margin-top: 40px;
+		font-family: ali;
+	}
+	@keyframes s{
+		0%{
+			right: 0px;
+			display: none;
+		}
+		50%{
+			right: 8px;
+			background-color: aqua;
+		}
+		100%{
+			right: 15px;
+			box-shadow: 4px 0px 40px 0px red;
+		}
+	}
+	
+	#ali{
+		border-radius:5px;
+		width: 70px;
+		animation-name: s;
+		animation-duration: 1.5s;
+		animation-delay: 0.4s;
+		height: 30px;
+		transition: all 2s;
+		line-height: 10px;
+		cursor: pointer;
+		margin-left: 400px;
+		color: white;
+		top: 18px;
+		background-color:#444;
+		background-size: cover;
+		position: absolute;
+	}
+	#ex{
+		width: 50px;
+		height: 30px;
+		cursor: pointer;
+		color:rgba(0,0,0.6);
+		border-radius: 3px;
+		margin-left: 945px;
+		line-height: 28px;
+		margin-top: 8.5px;
+		background-color: gray;
+		position: absolute;
+	}
+	#h-t {
+		font-family: ali;
+		font-size: 16px;
+		line-height: 35px;
+		font-weight: bold;
+		width: 300px;
+		background-color: #1BF2D1;
+		box-shadow: 8px -4px 8px -4px darkcyan;
+		border-radius: 10px;
+		text-align: center;
+		height: 40px;
+		margin-top: 40px;
+		margin-left: 350px;
+		position: absolute;
+		cursor: default;
+	}
+
+	#bu:after {
+		background-color: transparent;
+		border: 1px solid gray
+	}
+
+	#ori {
+		width: 99%;
+		height: 960px;
+		margin-left: 0.5%;
+		margin-top: 327px;
+		transition: all 1s;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: absolute;
+		border-radius: 5px;
+		background-color: #fdde;
+	}
+
+	#sid {
+		width: 30%;
+		height: 400px;
+		border-radius: 10px;
+		position: absolute;
+		top: 20px;
+		box-shadow: 5px 3px 7px #2A2A2A;
+		margin-left: 680px;
+		background-color: #dde;
+	}
+
+	#ti {
+		width: 99%;
+		height: 20px;
+		line-height: 15px;
+		text-align: center;
+		top: 2px;
+		position: absolute;
+		left: 0.4%;
+		border-top: 1px solid gray;
+		border-bottom: 1px solid gray;
+		box-sizing: border-box;
+		border-radius: 4px;
+		background-color: #F0E032;
+	}
+
+	#list {
+		box-sizing: border-box;
+		position: relative;
+		width: 98%;
+		float: left;
+		top: 20px;
+	}
+
+	#aqq {
+		list-style-type: none;
+		margin-right: 20px;
+	}
+
+	#aq {
+		color: #5928F8;
+		font-weight: bold;
+		font-family: ali;
+		font-size: 14px;
+		float: right;
+		right: 10px;
+	}
+	#u{
+		color: white;
+		margin-top: 4px;
+		position: fixed;
+		text-align: center;
+		margin-left: 200px;
+	}
+	footer {
+		width: 100%;
+		height: 100px;
+		background-color: lime;
+		position: absolute;
+		font-size: 18px;
+		font-weight: bold;
+		font-family: ali;
+		font-style: italic;
+		border-radius: 3px;
+		line-height: 90px;
+		margin-top: 1300px
+	}
+}
